@@ -236,6 +236,19 @@
       color: var(--navy);
       font-weight: 700;
     }
+    .category-heading {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--navy);
+      text-align: center;
+      margin: 2.5rem 0 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px dashed var(--border);
+    }
+    .category-heading i {
+      margin-right: 10px;
+      color: var(--navy-light);
+    }
     .why-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -399,8 +412,10 @@
 <section id="services">
   <div class="container">
     <h2 class="section-title">What We Deliver</h2>
+    
+    <!-- Education Technology Category -->
+    <div class="category-heading"><i class="fas fa-graduation-cap"></i> Education Technology</div>
     <div class="services-grid">
-      <!-- Smart Class & School IT Setup (first) -->
       <div class="service-card">
         <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=400&fit=crop" class="card-img" alt="Smart Class Setup">
         <h3>📚 Smart Class & School IT Setup</h3>
@@ -410,31 +425,32 @@
           <li><strong>Teacher Digital Training:</strong> Empowering educators with English & digital tools training.</li>
         </ul>
       </div>
-      <!-- Website -->
+      <!-- add more EdTech if needed, but we have one main -->
+    </div>
+
+    <!-- Digital Services Category -->
+    <div class="category-heading"><i class="fas fa-laptop-code"></i> Digital Services</div>
+    <div class="services-grid">
       <div class="service-card">
         <img src="Website.jpg" class="card-img" alt="Website">
         <h3>🌐 Website</h3>
         <p>Modern responsive websites for business & personal brands.</p>
       </div>
-      <!-- Professional Bio-Data & Portfolios -->
       <div class="service-card">
         <img src="resume-CV.jpg" class="card-img" alt="Resume CV">
         <h3>📋 Professional Bio-Data & Portfolios</h3>
         <p>ATS-friendly, modern resume designs.</p>
       </div>
-      <!-- Logo Design -->
       <div class="service-card">
         <img src="Logo Design.png" class="card-img" alt="Logo Design">
         <h3>🎨 Logo Design</h3>
         <p>Unique, memorable logos for startups.</p>
       </div>
-      <!-- Corporate Documentation -->
       <div class="service-card">
         <img src="Document Edit.jpg" class="card-img" alt="Document Edit">
         <h3>📄 Corporate Documentation</h3>
         <p>Professional formatting for PDF, Word, official docs.</p>
       </div>
-      <!-- Letterhead -->
       <div class="service-card">
         <img src="latterhade.jpeg" class="card-img" alt="Letterhead">
         <h3>✉️ Letterhead</h3>
@@ -452,7 +468,7 @@
       <div class="why-card"><i class="fas fa-gem"></i><h3>Premium Quality</h3><p>Pixel-perfect modern designs.</p></div>
       <div class="why-card"><i class="fas fa-coins"></i><h3>Minimal Charges</h3><p>Honest pricing, no hidden fees.</p></div>
       <div class="why-card"><i class="fab fa-whatsapp"></i><h3>Direct Support</h3><p>Chat on WhatsApp for instant help.</p></div>
-      <div class="why-card special-card"><i class="fas fa-trophy"></i><h3>Lowest Price Guarantee</h3><p>🔥 Extreme affordability with premium results.</p><div class="price-badge">⭐ BEST VALUE ⭐</div></div>
+      <div class="why-card special-card"><i class="fas fa-tag"></i><h3>Affordable Pricing</h3><p>🔥 Extreme affordability with premium results.</p><div class="price-badge">⭐ BEST VALUE ⭐</div></div>
     </div>
   </div>
 </section>
@@ -462,7 +478,7 @@
     <h2 class="section-title">Request a Service</h2>
     <div class="request-card">
       <h3>📋 Need any help?</h3>
-      <p>Tell us your requirement on WhatsApp. We'll reply within minutes.</p>
+      <p>Tell us your requirement on WhatsApp. We provide quick WhatsApp support.</p>
       <a href="https://wa.me/918433412626?text=Hello%2C%20I%20need%20a%20service%3A%20%0A-%20Type%3A%20%0A-%20Details%3A%20%0A-%20Deadline%3A" class="whatsapp-request-btn">💬 Request via WhatsApp</a>
     </div>
   </div>
